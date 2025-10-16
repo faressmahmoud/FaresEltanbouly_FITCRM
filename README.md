@@ -59,11 +59,12 @@ Open `index.html` or `clients.html` directly in any modern browser.
    - Folder: `/ (root)`  
 4. Wait 1–2 minutes for the site to publish.
 
-### Paste your links here after deployment
-- **GitHub Repo:** `<PASTE-REPO-URL>`  
-- **Live App (GitHub Pages):** `<PASTE-PAGES-URL>`  
-  - New Client: `<PASTE-PAGES-URL>/index.html`  
-  - Client List: `<PASTE-PAGES-URL>/clients.html`
+## Deployment Links
+
+- **GitHub Repo:** https://github.com/faressmahmoud/FaresEltanbouly_FITCRM  
+- **Live App (GitHub Pages):** https://faressmahmoud.github.io/FaresEltanbouly_FITCRM/  
+  - New Client: https://faressmahmoud.github.io/FaresEltanbouly_FITCRM/index.html  
+  - Client List: https://faressmahmoud.github.io/FaresEltanbouly_FITCRM/clients.html
 
 ---
 
