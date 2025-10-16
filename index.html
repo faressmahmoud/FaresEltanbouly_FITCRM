@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FitCRM – New Client</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">FitCRM</h1>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html" aria-current="page">New Client</a>
+        <a href="clients.html">Client List</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card" aria-labelledby="new-client-heading">
+      <h2 id="new-client-heading">New Client Form</h2>
+      <p class="muted">Please complete the form below to add your details so we can set up your membership and track your fitness goals.</p>
+
+      <form class="grid-form">
+        <div class="form-field">
+          <label for="fullName">Full Name</label>
+          <input id="fullName" name="fullName" type="text" placeholder="Please Enter Your Name" required />
+        </div>
+
+        <div class="form-field">
+          <label for="age">Age</label>
+          <input id="age" name="age" type="number" min="0" max="120" placeholder="Please Enter Your Age" required />
+        </div>
+
+        <div class="form-field">
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender" required>
+            <option value="" disabled selected>Select gender</option>
+            <option>Female</option>
+            <option>Male</option>
+            <option>Prefer not to say</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Please Enter Your Email" required />
+        </div>
+
+        <div class="form-field">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" inputmode="tel" placeholder="+20 10 1234 5678" required />
+        </div>
+
+        <div class="form-field span-2">
+          <label for="goal">Fitness Goal</label>
+          <input id="goal" name="goal" type="text" placeholder="Weight Loss / Muscle Gain / General Fitness / Endurance / Flexibility" list="goalOptions" />
+          <datalist id="goalOptions">
+            <option value="Weight Loss"></option>
+            <option value="Muscle Gain"></option>
+            <option value="General Fitness"></option>
+            <option value="Endurance"></option>
+            <option value="Flexibility"></option>
+          </datalist>
+        </div>
+
+        <div class="form-field">
+          <label for="start">Membership Start Date</label>
+          <input id="start" name="start" type="date" required />
+        </div>
+
+        <div class="actions span-2">
+          <button type="button" class="btn primary" aria-disabled="true" title="Placeholder only — no action">Add Client</button>
+          <a class="btn" href="clients.html" role="button">View Client List</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 FitCRM</small>
+    </div>
+  </footer>
+</body>
+</html>
